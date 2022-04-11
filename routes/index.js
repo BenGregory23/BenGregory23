@@ -205,7 +205,7 @@ router.get('/archive', function (req, res) {
  * GET /information
  */
 
-router.get("/information", function(req, res) {
+router.get('/information', function(req, res) {
 
   var message = "GET d'information pour tester que ça fonctionne";
   res.send(message);
