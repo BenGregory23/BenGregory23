@@ -208,6 +208,7 @@ router.get('/archive', function (req, res) {
 router.get('/information', function(req, res) {
 
   var message = "GET d'information pour tester que ça fonctionne";
+  res.setHeader('Content-Type', 'application/json');
   res.send(message);
 })
 
