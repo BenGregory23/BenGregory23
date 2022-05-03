@@ -26,24 +26,16 @@ text.onmousedown = function(event) { //  start the process
       document.removeEventListener('mousemove', onMouseMove);
       text.onmouseup = null;
     };
-  };
+};
 
+let map;
 
-  mapkit.init({
-    authorizationCallback: function(done) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "/services/jwt");
-        xhr.addEventListener("load", function() {
-            done(this.responseText);
-        });
-        xhr.send();
-    }
-});
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
 
-var Cupertino = new mapkit.CoordinateRegion(
-    new mapkit.Coordinate(37.3316850890998, -122.030067374026),
-    new mapkit.CoordinateSpan(0.167647972, 0.354985255)
-);
-var map = new mapkit.Map("map");
-map.region = Cupertino;
+window.initMap = initMap;
 
