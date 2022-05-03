@@ -29,8 +29,9 @@ header{
     width: fit-content;
     background-color : white;
     border-radius: 20px;
-    padding: 25px;
-    max-width: 200px;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 200px;
     text-align: justify;
     height: 100%;
     width: 100%;
