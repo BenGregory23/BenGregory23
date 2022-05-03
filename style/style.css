@@ -32,7 +32,6 @@ main{
     align-items: center;
     height: fit-content;
     max-height: 100vh;
-    overflow: hidden;
 }
 
 a{
