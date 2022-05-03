@@ -28,7 +28,7 @@ text.onmousedown = function(event) { //  start the process
     };
 };
 
-let map;
+let map
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
