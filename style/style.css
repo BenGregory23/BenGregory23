@@ -30,6 +30,7 @@ header{
     background-color : white;
     border-radius: 20px;
     padding: 10px;
+    min-height: 40px;
     max-width: 300px;
     max-height: 200px;
     text-align: justify;
