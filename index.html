@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-        <html>
-        <head>
-        <meta charset="utf-8">
-        
-        <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
-        
-        <style>
-        #map {
-            width: 100%;
-            height: 600px;
-        }
-        </style>
-        
-        </head>
-        
-        <body>
-        <div id="map"></div>
-        
-        <script>
-        mapkit.init({
-            authorizationCallback: function(done) {
-                var xhr = new XMLHttpRequest();
-                xhr.open("GET", "/services/jwt");
-                xhr.addEventListener("load", function() {
-                    done(this.responseText);
-                });
-                xhr.send();
-            }
-        });
-        
-        var Cupertino = new mapkit.CoordinateRegion(
-            new mapkit.Coordinate(37.3316850890998, -122.030067374026),
-            new mapkit.CoordinateSpan(0.167647972, 0.354985255)
-        );
-        var map = new mapkit.Map("map");
-        map.region = Cupertino;
-        </script>
-        </body>
-        </html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header> 
+        <h1>Ben GREGORY</h1>
+    </header>
+    <div id="about-me">
+        <h2>About Me</h2>
+        <p>
+            I am a student at the University of Waterloo studying Computer Science.
+            I am currently working on a project to create a web application that
+            allows users to create and share their own personal web pages.
+        </p>
+    </div>
+
+
+    <div id="map">
+
+    </div>
+</body>
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+<script src="script.js"></script>
+</html>
