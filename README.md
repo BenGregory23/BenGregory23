@@ -35,7 +35,7 @@ I've been learning code for two years now. I am currently doing an intership in 
                                 <a href="adobe.com/uk/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored-dark.svg" width="36" height="36" alt="Illustrator" /></a>
                     </p>
                     
-                  ### Socials
+### Socials
                   
                   
                 <p align="left">
