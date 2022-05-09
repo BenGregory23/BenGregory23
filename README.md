@@ -8,7 +8,7 @@ I've been learning code for two years now. I am currently doing an intership in 
 
 *   🌍  I'm based in Clermont-Ferrand, FRANCE
 *   ✉️  You can contact me at [bengregorygbr@gmail.com](mailto:bengregorygbr@gmail.com)
-*   🧠  I'm learning IUT of Clermont-Ferrand
+*   🧠  I'm learning code at the IUT of Clermont-Ferrand
 *   ⚡  French/British
 
 ### Skills
