@@ -6,10 +6,13 @@ Developer Student
 
 I've been learning code for two years now. I am currently doing an intership in a Healthcare company called WeMed.
 
-*   🌍  I'm based in Clermont-Ferrand, FRANCE
-*   ✉️  You can contact me at [bengregorygbr@gmail.com](mailto:bengregorygbr@gmail.com)
-*   🧠  I'm learning IUT of Clermont-Ferrand
-*   ⚡  French/British### Skills<p align="left">
+*   🌍  I'm based in Clermont-Ferrand, FRANCE
+*   ✉️  You can contact me at [bengregorygbr@gmail.com](mailto:bengregorygbr@gmail.com)
+*   🧠  I'm learning IUT of Clermont-Ferrand
+*   ⚡  French/British
+
+### Skills
+<p align="left">
                                 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
                                 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
                                 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
@@ -35,15 +38,21 @@ I've been learning code for two years now. I am currently doing an intership in 
                                 <a href="adobe.com/uk/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/illustrator-colored-dark.svg" width="36" height="36" alt="Illustrator" /></a>
                     </p>
                     
-### Socials
+
+                  ### Socials
                   
-                  
-                <p align="left">
-                          
-                      <a href="https://www.github.com/BenGregory23" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a>
-                          
-                      <a href="https://www.linkedin.com/in/ben-gregory-a04471169/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>### Badges<b>My GitHub Stats</b><a
-                      href="http://www.github.com/BenGregory23"><img src="https://github-readme-stats.vercel.app/api?username=BenGregory23&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="BenGregory23's GitHub stats" /></a><a
-                      href="http://www.github.com/BenGregory23"><img
-                  src="https://github-readme-streak-stats.herokuapp.com/?user=BenGregory23&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a><a
-                      href="http://www.github.com/BenGregory23"><img src="https://activity-graph.herokuapp.com/graph?username=BenGregory23&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a><b>Top Repositories</b><div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
+                  <p align="left"> <a href="https://www.github.com/BenGregory23" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/ben-gregory-a04471169/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
+
+### Badges
+
+<b>My GitHub Stats</b>
+
+<a href="http://www.github.com/BenGregory23"><img src="https://github-readme-stats.vercel.app/api?username=BenGregory23&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="BenGregory23's GitHub stats" /></a>
+
+<a href="http://www.github.com/BenGregory23"><img src="https://github-readme-streak-stats.herokuapp.com/?user=BenGregory23&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+
+<a href="http://www.github.com/BenGregory23"><img src="https://activity-graph.herokuapp.com/graph?username=BenGregory23&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+
+<b>Top Repositories</b>
+
+<div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
