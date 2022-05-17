@@ -46,5 +46,6 @@ I've been learning to program for 2 years now. I started with some front-end dev
                           
                       <a href="https://www.stackoverflow.com/users/ben-gregory" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a></p>
                       
-### Support Me<a
-                  href="https://www.buymeacoffee.com/tnyggdjhjxo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+### Support Me
+
+<a href="https://www.buymeacoffee.com/tnyggdjhjxo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
