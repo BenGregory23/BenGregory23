@@ -11,7 +11,9 @@ I've been learning to program for 2 years now. I started with some front-end dev
 *   🚀  I'm currently working on [Skop API](http://bengregory23.github.io/Skop-API-documentation/#/)
 *   🧠  I'm learning Next JS
 *   🤝  I'm open to collaborating on anything ! If you have a great idea and need someone to work with I will be glad to help.
-*   ⚡  I am fluent in both French and English.### Skills<p align="left">
+*   ⚡  I am fluent in both French and English.
+
+### Skills<p align="left">
                                 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" width="36" height="36" alt="C" /></a>
                                 <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" width="36" height="36" alt="C++" /></a>
                                 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a>
@@ -42,5 +44,7 @@ I've been learning to program for 2 years now. I started with some front-end dev
                           
                       <a href="https://www.linkedin.com/in/ben-gregory-a04471169" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a>
                           
-                      <a href="https://www.stackoverflow.com/users/ben-gregory" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a></p>### Support Me<a
+                      <a href="https://www.stackoverflow.com/users/ben-gregory" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /></a></p>
+                      
+### Support Me<a
                   href="https://www.buymeacoffee.com/tnyggdjhjxo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
