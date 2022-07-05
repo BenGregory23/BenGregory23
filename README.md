@@ -6,7 +6,7 @@ Student Developer
 I've been learning to program for 2 years now. I started with some front-end development and I am looking forward to discovering new languages and technologies along the road!
 * 🌍  I'm based in Clermont-Ferrand, France
 * ✉️  You can contact me at [bengregorygbr@gmail.com](mailto:bengregorygbr@gmail.com)
-* 🚀  I'm currently working on [Halfred API](http://bengregory23.github.io/Skop-API-documentation/#/)
+* 🚀  I'm currently working on [SKOP API](http://bengregory23.github.io/Skop-API-documentation/#/)
 * 🧠  I'm learning Next JS
 * 🤝  I'm open to collaborating on anything ! If you have a great idea and need someone to work with I will be glad to help.
 * ⚡  I am fluent in both French and English.
