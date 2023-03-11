@@ -16,7 +16,7 @@ const Skills = (props: { skills: any; }) => {
 
     const [circle, setCircle] = useState(new Path2D())
     const [canvas, setCanvas] = useState(new HTMLCanvasElement())
-    const [ctx, setCtx] = useState(canvas.getContext("2d"))
+    const [ctx, setCtx] = useState(canvas.getContext("2d") as CanvasRenderingContext2D)
    
     let size = 100;
     const [skills, setSkills] = useState(props.skills)
