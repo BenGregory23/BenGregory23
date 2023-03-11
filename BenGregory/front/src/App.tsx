@@ -14,7 +14,7 @@ function App() {
   const [skills, setSkills] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/projects").then(res => res.json()).then(data => {
+    fetch("https://portfolio-ben-gregory.herokuapp.com/api/projects").then(res => res.json()).then(data => {
       setProjects(data)
       
     }).catch(err => {
