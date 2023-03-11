@@ -14,9 +14,9 @@ const Skills = (props: { skills: any; }) => {
     const [modalDescription, setModalDescription] = useState("")
 
 
-    const [circle, setCircle] = useState(null)
-    const [ctx, setCtx] = useState(null)
-    const [canvas, setCanvas] = useState(null)
+    const [circle, setCircle] = useState()
+    const [ctx, setCtx] = useState()
+    const [canvas, setCanvas] = useState()
     let size = 100;
     const [skills, setSkills] = useState(props.skills)
 
@@ -37,6 +37,7 @@ const Skills = (props: { skills: any; }) => {
             
             ctx.fill(circle)
             if(ctx === null) return
+            if(canvas === null) return
             setCircle(circle)
             setCtx(ctx)
             setCanvas(canvas)
@@ -117,9 +118,9 @@ const Skills = (props: { skills: any; }) => {
                         justifyContent: 'center',
                     }}>
                         {
-                            props.skills.map((skill, index) => {
+                            props.skills.map((skill:any, index:any) => {
                                 return (
-                                        <Typography level="display1" color="white" 
+                                        <Typography level="display1"
                                         key={index}
                                         onClick={() => {
                                             setModalTitle(skill.title)

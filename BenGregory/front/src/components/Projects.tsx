@@ -7,7 +7,11 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 const Projects = (props: {projects:any}) => {
     const [projects, setProjects] = useState(props.projects);
-    const [displayedProject, setDisplayedProject] = useState(null);
+    const [displayedProject, setDisplayedProject] = useState({
+        title: "",
+        description: "",
+        link: null
+    });
 
     
 

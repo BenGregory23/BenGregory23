@@ -21,7 +21,7 @@ function App() {
       console.log(err)
     })
 
-    fetch("http://localhost:3000/api/skills").then(res => res.json()).then(data => {
+    fetch("https://portfolio-ben-gregory.herokuapp.com/api/skills").then(res => res.json()).then(data => {
       setSkills(data)
     }).catch(err => {
       console.log(err)
