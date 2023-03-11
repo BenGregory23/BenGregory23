@@ -14,9 +14,9 @@ const Skills = (props: { skills: any; }) => {
     const [modalDescription, setModalDescription] = useState("")
 
 
-    const [circle, setCircle] = useState()
-    const [ctx, setCtx] = useState()
-    const [canvas, setCanvas] = useState()
+    const [circle, setCircle] = useState(new Path2D())
+    const [ctx, setCtx] = useState(new CanvasRenderingContext2D())
+    const [canvas, setCanvas] = useState(new HTMLCanvasElement())
     let size = 100;
     const [skills, setSkills] = useState(props.skills)
 
