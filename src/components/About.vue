@@ -25,4 +25,19 @@
     font-weight: 300; 
    
   }
+
+  @media (max-width: 768px) {
+    .about {
+      width: 100vw;
+      padding: 20px;
+      height: 100%;
+    }
+
+    .about p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      text-align: justify;
+      padding: 20px;
+    }
+  }
 </style>

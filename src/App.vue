@@ -1,27 +1,31 @@
 <script setup>
+import { ref } from 'vue'
+
+
 
 import Hero from './components/Hero.vue'
-
 import Projects from './components/projects/Projects.vue'
-import Header from './components/Header.vue'
+import MobileMenu from './components/MobileMenu.vue'
 import Work from './components/work/Work.vue'
+import Footer from './components/Footer.vue'
+import Skills from './components/skills/Skills.vue'
+
+const mobileMenu = ref(false)
+
+if (window.innerWidth < 768) {
+  mobileMenu.value = true
+}
+
 </script>
 
 <template>
   <div class="main">
-    
-    <Header/>
     <Hero/>
-
     <Projects/>
-
     <Work/>
-
-
-    
-  
-  
- 
+    <Skills/>
+    <Footer/>
+    <MobileMenu />
   </div>
 
 </template>
@@ -41,6 +45,12 @@ import Work from './components/work/Work.vue'
     width: 100vw;
     min-height: 100vh;
 
+  }
+
+  @media (max-width: 768px) {
+    .main {
+      padding: 0;
+    }
   }
 
 </style>

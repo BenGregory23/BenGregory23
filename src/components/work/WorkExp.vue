@@ -17,7 +17,7 @@ defineProps(
     <div class="work-exp">
        
             <div class="work-exp-image">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.nomadfoods.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fplaceholder-1-e1533569576673.png&f=1&nofb=1&ipt=f9e4a0962fee97170f045806e6abbf8e754a60e6407ddd2691dc16f2b7b89d67&ipo=images"/>
+                <img :src="image"/>
             </div>
             <div class="work-exp-text">
                 <h3>{{ name }}</h3>
@@ -53,7 +53,7 @@ defineProps(
         justify-content: center;    
         align-items: center;
         height: 300px;
-        width: 300px;
+        width: 40%;
         border-radius: 1px;
         transition: all 0.2s ease-in-out;
         margin: 10px;
@@ -102,6 +102,7 @@ defineProps(
     .work-exp-text p {
         margin: 0;
         padding: 0;
+        font-weight: 300;
     }
 
 </style>

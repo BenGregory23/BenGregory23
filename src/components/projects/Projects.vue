@@ -14,7 +14,7 @@ import skop_API from '../../assets/SKOP_API.png'
 
 <template>
     <div id="Projets" class="projects">
-        <h2>Projects</h2>
+        <h2>Projets</h2>
 
         <div class="project-container">
             <Project name="Corn" :image="banner" link="https://github.com/sainteTrinity/Corn" />
@@ -37,7 +37,7 @@ import skop_API from '../../assets/SKOP_API.png'
         height: 100%;
         min-height: 100vh;
         width: 100vw;
-    
+       
 
     }
 
@@ -60,6 +60,31 @@ import skop_API from '../../assets/SKOP_API.png'
         width: max-content;
         color: white;
         padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+        .projects {
+            padding: 0;
+            height: max-content;
+            min-height: max-content;
+            
+        }
+
+        .project-container {
+            flex-direction: column;
+            justify-content: center;    
+            align-items: center;
+            height: fit-content;
+            width: 100vw;
+            background-color: transparent;
+        }
+
+        h2 {
+            background-color: black;
+            width: max-content;
+            color: white;
+            padding: 10px;
+        }
     }
     
    

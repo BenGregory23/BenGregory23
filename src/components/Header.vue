@@ -22,11 +22,12 @@ onUnmounted(() => {
     transition : 'all 0.2s ease-in-out',
 }">
     <ul>
-        <li><a href="#Ben">Ben Gregory</a></li>
-        <li><a href="#Projets">Projets</a></li>
-        <li><a href="#Experiences">Expériences</a></li>
-        <li><a href="#Competences">Compétences</a></li>
-        <li>Hobby</li>
+        <a href="#Ben"><li>Ben Gregory</li></a>
+        <a href="#Projets"><li>Projets</li></a>
+        <a href="#Experiences"><li>Expériences</li></a>
+        <a href="#Competences"><li>Compétences</li></a>
+        <a href="#Hobby"><li>Hobby</li></a>
+      
     </ul>
   </div>
 </template>
@@ -83,6 +84,13 @@ onUnmounted(() => {
 
 .header ul li:hover a {
     color: black;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
 }
 
 
