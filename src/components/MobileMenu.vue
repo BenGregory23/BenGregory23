@@ -77,7 +77,8 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 100vw;
+            overflow: hidden;
             position: fixed;
             bottom: 0;
             left: 0;

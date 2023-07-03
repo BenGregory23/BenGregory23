@@ -35,7 +35,7 @@ function scrollDown() {
         min-height: 100vh;
         width: 100vw;
         padding: 10px;
-       
+        user-select: none;
         background-color: transparent;
     }
 

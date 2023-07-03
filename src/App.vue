@@ -25,8 +25,9 @@ if (window.innerWidth < 768) {
     <Work/>
     <Skills/>
     <Footer/>
-    <MobileMenu />
+    
   </div>
+  <MobileMenu />
 
 </template>
 
@@ -50,6 +51,7 @@ if (window.innerWidth < 768) {
   @media (max-width: 768px) {
     .main {
       padding: 0;
+      height: 90%;
     }
   }
 
