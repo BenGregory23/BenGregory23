@@ -25,6 +25,8 @@
 
 
 <style scoped>
+    @import url('https://fonts.googleapis.com/css?family=Rakkas');
+
     .footer{
         display: flex;
         flex-direction: column;
@@ -40,6 +42,9 @@
         color: black;
         text-decoration: underline;
         padding: 10px;
+        font-size: 1.5rem;
+
+        font-family: 'Rakkas', cursive;
     }
 
 </style>

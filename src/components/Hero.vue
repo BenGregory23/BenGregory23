@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import About from './About.vue'
+import Morphing from './Morphing.vue';
 
 
 function scrollDown() {
@@ -14,12 +15,11 @@ function scrollDown() {
 
 <template>
     <div id="Ben" class="hero">
-        <h1>Ben Gregory</h1>
+       
+       
         <About />
 
-        <button @click="scrollDown">
-            Continue
-        </button>
+      
 
     </div>
     

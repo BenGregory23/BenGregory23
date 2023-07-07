@@ -4,7 +4,6 @@ defineProps({
     skill: String,
     skillLevel: Number,
     tag: String,
-    skillImage: String
 })
 
 </script>
@@ -34,7 +33,7 @@ defineProps({
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: fit-content;
         
         width:30%;
         margin:  10px;

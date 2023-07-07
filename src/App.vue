@@ -9,6 +9,8 @@ import MobileMenu from './components/MobileMenu.vue'
 import Work from './components/work/Work.vue'
 import Footer from './components/Footer.vue'
 import Skills from './components/skills/Skills.vue'
+import Morphing from './components/Morphing.vue'
+import Hobbies from './components/hobbies/Hobbies.vue'
 
 const mobileMenu = ref(false)
 
@@ -20,10 +22,12 @@ if (window.innerWidth < 768) {
 
 <template>
   <div class="main">
+    <Morphing/>
     <Hero/>
     <Projects/>
     <Work/>
     <Skills/>
+    <Hobbies/>
     <Footer/>
     
   </div>
@@ -51,7 +55,7 @@ if (window.innerWidth < 768) {
   @media (max-width: 768px) {
     .main {
       padding: 0;
-      height: 90%;
+      height: 90vh;
     }
   }
 

@@ -8,23 +8,44 @@ import Skill from './Skill.vue'
 
 
 
-            <h3>
-            Web
-            </h3>
-       
+            <section>
+                <h3> Langage maîtrisés </h3>
+                <div class="container">
+                    
+                    <Skill skill="HTML/CSS" skillLevel="90" tag="Avancé" />
+                    <Skill skill="Javascript" skillLevel="80" tag="Avancé" />
+                    <Skill skill="Java" skillLevel="70" tag="Avancé" />
+                    <Skill skill="C#" skillLevel="60" tag="Avancé" />
+                    <Skill skill="Python" skillLevel="40" tag="Avancé" />
+                    <Skill skill="SQL" skillLevel="55" tag="Avancé" />
+
+                </div>
+            </section>
+
+            <section>
+                <h3> Web </h3>
+                <div class="container">
+                    
+                    <Skill skill="React.js" skillLevel="80" tag="Utilisé sur de multiple projets" />
+                    <Skill skill="Vue.js" skillLevel="40" tag="En cours d'apprentissage" />
+                    <Skill skill="Node.js" skillLevel="40" tag="Bonne maîtrise" />
+                    <Skill skill="Express.js" skillLevel="40" tag="Bonne maîtrise" />
+                    <Skill skill="Spring Boot" skillLevel="60" tag="Bonne connaissance" />
+                </div>
+            </section>
+
+
+            
+        
        
 
-        <div class="container">
-            <Skill skill="HTML/CSS" skillLevel="90" tag="Avancé" />
-            <Skill skill="Javascript" skillLevel="80" tag="Avancé" />
-            <Skill skill="React.js" skillLevel="80" tag="Utilisé sur de multiple projets" />
-            <Skill skill="Vue.js" skillLevel="40" tag="En cours d'apprentissage" />
-        </div>
+      
   
     </div>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Rakkas');
     .skills{
         display: flex;
         flex-direction: column;
@@ -43,13 +64,28 @@ import Skill from './Skill.vue'
         color: white;
     }
 
-    .skills h3{
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    section h3{
+        margin : 1rem;
+        padding: 10px;
+        text-decoration: underline;
         font-size: 1.5rem;
-        margin: 0;
-        padding: 0;
+        text-align: left;
+        align-self: flex-start;
+ 
         font-weight: 300;
         color: black;
+        font-family: 'Rakkas', cursive;
     }
+
+
 
     .container{
         display: flex;
