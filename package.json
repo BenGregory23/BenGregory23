@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-vue": "^0.258.0",
     "lucide-vue-next": "^0.258.0",
     "prettier": "^2.8.8",
     "vue": "^3.2.47"
