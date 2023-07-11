@@ -45,7 +45,7 @@ import Skill from './Skill.vue'
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Rakkas');
+
     .skills{
         display: flex;
         flex-direction: column;
@@ -70,6 +70,7 @@ import Skill from './Skill.vue'
         justify-content: center;
         align-items: center;
         width: 80%;
+ 
     }
 
     section h3{
@@ -82,7 +83,7 @@ import Skill from './Skill.vue'
  
         font-weight: 300;
         color: black;
-        font-family: 'Rakkas', cursive;
+        
     }
 
 
@@ -94,7 +95,7 @@ import Skill from './Skill.vue'
         justify-content: center;
         align-items: center;
         width: 100%;
-        
+   
         
     }
 
