@@ -156,7 +156,7 @@ function scrollDown() {
 
 /* Cool font from Google Fonts! */
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 .morph {
 
     width: 100vw;
@@ -205,7 +205,7 @@ function scrollDown() {
     display: flex;
     justify-content: center;
 	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Old Standard TT', serif;
 	font-size: 80pt;
 	
 	text-align: center;
