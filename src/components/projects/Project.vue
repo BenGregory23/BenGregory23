@@ -1,81 +1,181 @@
 <script setup>
 import { ref } from 'vue'
+import { ArrowUpRightSquare, Code } from 'lucide-vue-next';
 
 // get project name and image link from props
-
 defineProps({
     name: String,
     image: String,
-    link: String
+    link: String,
+    sourceCode: String,
+    description: String
 })
 
+// default description
+const defaultDescription = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum!'
 
 
+// show description on hover
+const isHovered = ref(false)
+const showDescription = () => {
+    isHovered.value = true
+}
 
+const hideDescription = () => {
+    isHovered.value = false
+}
 
 </script>
 
-
 <template>
     <div class="project">
-        <a :href="link" target="_blank">
-            <h3>{{ name }}</h3>
-             <img :src="image" alt="project image" />
-        </a>
+      <div class="project-card" @mouseover="showDescription" @mouseleave="hideDescription">
        
-    </div>
-
-</template>
-
-<style scoped>
-    .project {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;    
-        align-items: center;
-        height: 300px;
-        width: 300px;
+          <img :src="image" alt="project image" />
       
-        border-radius: 1px;
-        transition: all 0.2s ease-in-out;
-        margin: 10px;
-    }
+        <div class="description" v-show="isHovered">
+            <h3 class="title">{{ name }}</h3>
+          <p>{{ description }}</p>
+          <div class="row">
+            <p id="link" v-if="link" > <a :href="link" target="_blank"><ArrowUpRightSquare /></a></p>
+            
 
-    .project:hover {
-        cursor: pointer;
-        transform: scale(1.01);
-       
-    }
+            <p id="link" v-if="sourceCode"> <a :href="sourceCode" target="_blank"><Code /></a></p>
+            
+            
+        
+           </div>
+         
+        </div>
 
-    .project h3 {
-        position: relative;
-        top:100%;
-        z-index: 1;
-        bottom: 0;
-      
-        left: 0;
-        background-color: black;
-        width: max-content;
-        color: white;
-        padding: 10px;
-        margin: 0;
-    }
-
-    
-
-    .project img, a {
-        border-radius: 1px;
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
      
+      </div>
+  
+   
+    </div>
+  </template>
+  
+  <style scoped>
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: white;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    left: 0;
+  }
+  
+  .project-card {
+    position: relative;
+    width: 370px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .project-card img:hover {
+    transform: scale(1.1);
+  }
+  
+  .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+  }
+  
+  .description p {
+    font-size: 0.9rem;
+    color: white;
+    padding: 0 12px ;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+    .description p a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+  
+  .project-card:hover .description {
+    opacity: 1;
+  }
+  
+  .project-info {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .project-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
     }
 
-    .project img {
+    #link {
+       margin: 5px;
+    }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      width: 300px;
+      height: 250px;
+    }
+
+    .description {
        
-        object-fit: cover;
+        font-size: 0.8rem;
     }
+  }
 
-</style>
+
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+  }
+  </style>
+  
