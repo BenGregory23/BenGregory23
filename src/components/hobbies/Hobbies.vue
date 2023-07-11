@@ -32,7 +32,7 @@ import Hobby from './Hobby.vue'
         width: 100vw;
         padding: 10px;
         user-select: none;
-        background-color: transparent;
+
     }
 
     .hobby-container{
@@ -57,13 +57,28 @@ import Hobby from './Hobby.vue'
     }
 
     @media screen and (max-width: 600px) {
+
+        .hobbies{
+            padding: 0;
+            height: max-content;
+            min-height: max-content;
+        
+        }
+
         .hobby-container{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            max-width: 100vw;
+            padding: 0;
         }
 
         h2{
-       
+            font-size: 1.5rem;
         }
+
+
 
 
     }

@@ -27,8 +27,8 @@
 
   @media (max-width: 768px) {
     .about {
-      width: 100vw;
-      padding: 20px;
+      width: 95vw;
+      padding: 0px;
       height:  fit-content;
     }
 
@@ -36,7 +36,7 @@
       font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: justify;
-      padding: 20px;
+      padding: 10px;
     }
   }
 </style>

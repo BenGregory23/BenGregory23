@@ -1,114 +1,139 @@
 <script setup>
+import { ref } from 'vue'
 
+const isMobileMenuOpen = ref(false)
 
+function toggleMobileMenu() {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value
+
+}
 </script>
 
 <template>
+  <div>
     <div class="menu">
+      <a href="#Ben"><li>Ben Gregory</li></a>
+      <a href="#Projets"><li>Projets</li></a>
+      <a href="#Experiences"><li>Expériences</li></a>
+      <a href="#Competences"><li>Compétences</li></a>
+      <a href="#Hobby"><li>Hobby</li></a>
+    </div>
+
+    <button class="hamburger" @click="toggleMobileMenu">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+
+    <transition name="slide">
+      <div class="mobile-menu" v-show="isMobileMenuOpen">
         <a href="#Ben"><li>Ben Gregory</li></a>
         <a href="#Projets"><li>Projets</li></a>
         <a href="#Experiences"><li>Expériences</li></a>
         <a href="#Competences"><li>Compétences</li></a>
         <a href="#Hobby"><li>Hobby</li></a>
-    </div>
-
-
-    <div class="mobile-menu">
-        <a href="#Ben"><li>Ben Gregory</li></a>
-        <a href="#Projets"><li>Projets</li></a>
-        <a href="#Experiences"><li>Expériences</li></a>
-        <a href="#Competences"><li>Compétences</li></a>
-        <a href="#Hobby"><li>Hobby</li></a>
-    </div>
-
-
-
-
+      </div>
+    </transition>
+  </div>
 </template>
 
 <style scoped>
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  z-index: 100;
+  padding: 0;
+}
 
-    .menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        background-color: black;
-        z-index: 100;
-        padding: 0;
-    }
+.menu a {
+  text-decoration: none;
+  margin: 0 10px;
+}
 
-    .menu a {
-        text-decoration: none;
-        margin : 0 10px;
-    }
+.menu li {
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  list-style: none;
+}
 
-   
-    .menu li {
-        color: white;
-        padding: 10px;
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid white;
-        list-style: none; 
-    }
+.menu li:hover {
+  background-color: white;
+  color: black;
+}
 
-    .menu li:hover {
-        background-color: white;
-        color: black;
-    }
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 101;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
 
+.hamburger-line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease-in-out;
+}
 
-    .mobile-menu {
-        display: none;
-    }
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 100;
+  
+  overflow-y: auto;
+}
 
-    @media (max-width: 768px) {
-        .menu {
-            display: none;
-        }
+.mobile-menu li {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid white;
+}
 
-        .mobile-menu {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100vw;
-            overflow: hidden;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            background-color: black;
-            z-index: 100;
-            padding: 0;
-        }
+.mobile-menu li:hover {
+  background-color: rgb(175, 175, 175);
+  color: black;
+}
 
-        .mobile-menu a {
-            text-decoration: none;
-            margin : 10px;
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease-in-out;
+}
 
-        }
+.slide-enter,
+.slide-leave-to {
+  transform: translateY(-100%);
+}
 
-        .mobile-menu li {
-            color: white;
-            padding: 10px;
-            width: 100%;
-            text-align: center;
-            border-bottom: 1px solid white;
-            list-style: none; 
-            font-size: smaller;
-        }
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
 
-        .mobile-menu li:hover {
-            background-color: white;
-            color: black;
-        }
-    }
-
-
-
+  .hamburger {
+    display: block;
+  }
+}
 </style>

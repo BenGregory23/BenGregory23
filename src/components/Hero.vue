@@ -45,4 +45,17 @@ function scrollDown() {
         color: white;
         padding: 10px;
     }
+
+    @media (max-width: 768px) {
+        .hero {
+            padding: 0;
+            height: max-content;
+            min-height: 100vh;
+            
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
 </style>

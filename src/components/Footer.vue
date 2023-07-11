@@ -165,6 +165,7 @@
             border-top: 1px solid black;
             background-color: white;
             height: 400px;
+            padding:2rem 0rem;
         }
 
         .contact {

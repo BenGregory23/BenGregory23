@@ -152,6 +152,12 @@ const hideDescription = () => {
     }
   
   @media (max-width: 768px) {
+
+    .project {
+      margin: 10px;
+    }
+
+
     .project-card {
       width: 300px;
       height: 250px;

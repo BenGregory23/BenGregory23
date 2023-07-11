@@ -97,6 +97,8 @@ import loleaf from '../../assets/loleaf.png'
             padding: 0;
             height: max-content;
             min-height: max-content;
+            max-width: 100vw;
+          
             
         }
 
@@ -105,7 +107,7 @@ import loleaf from '../../assets/loleaf.png'
             justify-content: center;    
             align-items: center;
             height: fit-content;
-            width: 100vw;
+            width: 95vw;
             background-color: transparent;
         }
 

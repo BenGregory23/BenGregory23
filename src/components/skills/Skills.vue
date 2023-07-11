@@ -99,6 +99,34 @@ import Skill from './Skill.vue'
         
     }
 
+    @media screen and (max-width: 768px) {
+
+        .skills{
+            padding: 0;
+            height: max-content;
+            min-height: max-content;
+        
+        }
+
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            max-width: 100vw;
+            padding: 0;
+        }
+
+        section {
+            width: 100%;
+        }
+
+        section h3{
+            text-align: center;
+            align-self: center;
+        }
+    }
+
    
     
 

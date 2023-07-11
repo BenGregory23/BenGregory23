@@ -90,6 +90,7 @@ onUnmounted(() => {
 @media (max-width: 768px) {
   .header {
     display: none;
+    padding: 0;
   }
 }
 

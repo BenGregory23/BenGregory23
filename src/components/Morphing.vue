@@ -218,5 +218,7 @@ function scrollDown() {
 	#text1, #text2 {
 		font-size: 40pt;
 	}
+
+	
 }
 </style>

@@ -62,7 +62,7 @@ import wemed from '../../assets/wemed.png'
 
     @media (max-width: 768px) {
         .work {
-            margin : 50px 0;
+            margin : 0px 0;
             padding: 0;
             height: max-content;
             min-height: max-content;
