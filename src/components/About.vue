@@ -6,9 +6,14 @@
 <template>
   <div class="about">
     <p>
-      Bienvenue sur mon portfolio ! Je suis un développeur junior passionné de développement. Récemment diplômé d'une licence professionnelle de développement web, j'ai acquis une solide expérience grâce à mes études, stages et alternances. Je suis constamment motivé à apprendre de nouvelles technologies et à relever de nouveaux défis. Actuellement, je me perfectionne en Vue.js et en Go. Je suis également bilingue en anglais et en français. Explorez mes compétences et projets ici. Merci de votre visite !
+      Bienvenue sur mon portfolio ! Je suis un développeur junior passionné par le développement. Récemment diplômé d'une licence professionnelle en développement web, j'ai acquis une solide expérience grâce à mes études, mes stages et mes expériences en alternance. Je suis constamment motivé à apprendre de nouvelles technologies et à relever de nouveaux défis. Actuellement, je me concentre sur le perfectionnement de mes compétences en Vue.js et en Go. Je suis également bilingue en anglais et en français.
+    <br/>
+    <br/>
+    <i>
+      Explorez mes compétences et découvrez mes projets ici. J'ai hâte de vous montrer mon travail et d'échanger avec vous. Merci de votre vie et n'hésitez pas à me contacter pour toute question ou opportunité de collaboration !
+    </i>
     </p>
-  </div>
+</div>
 
 </template>
 
