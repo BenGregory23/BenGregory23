@@ -15,7 +15,9 @@ defineProps(
 <template>
 
     <div class="hobby">
-        <img src="http://i.imgur.com/1aE1nMA.jpg" alt="logo les petits débrouillards">
+        <div class="img-container">
+            <img :src="image" alt="logo les petits débrouillards">
+        </div>
         <div class="hobby-info">
             <h3>{{ title }}</h3>
        
@@ -45,6 +47,7 @@ defineProps(
         background-color: white;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         height: 450px;
+        overflow: hidden;
     }
 
     .hobby-info{
@@ -78,13 +81,26 @@ defineProps(
         width: fit-content;
     }
 
+    .img-container{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     img {
         background-position: center;
         background-size: cover;
         border-radius: 5px 5px 0 0 ;
-        width: 100%;
-        height: 50%;
+        width: 300px;
+        height: 100%;
+
+        object-fit: cover;
+      
+        
     }
+
 
 
 
