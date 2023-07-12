@@ -15,8 +15,9 @@ defineProps({
         <h3>
             {{ skill }}
             <div class="skill-tag">
-            {{ tag }}
-        </div></h3>
+                {{ tag }}
+            </div>
+        </h3>
         
         <div class="skill-level">
             <div class="skill-level-bar" :style="{width: skillLevel + '%', backgroundColor: 'black' }"></div>
@@ -32,7 +33,7 @@ defineProps({
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         height: fit-content;
         
         width:30%;
@@ -47,7 +48,7 @@ defineProps({
         border-radius: 5px;
         border : 1px solid black;
         font-size: 0.8rem;
-        margin-top: 5px;
+        margin: 5px;
         
     }
     .skill h3{
@@ -56,6 +57,9 @@ defineProps({
         padding: 0;
         font-weight: 300;
         color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .skill-level{
@@ -69,6 +73,14 @@ defineProps({
     .skill-level-bar{
         height: 100%;
         
+    }
+
+    @media (max-width: 768px){
+
+        .skill{
+            width: 80%;
+
+        }
     }
 
 

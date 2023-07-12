@@ -105,7 +105,7 @@ import Skill from './Skill.vue'
             padding: 0;
             height: max-content;
             min-height: max-content;
-        
+            
         }
 
         .container{
@@ -119,6 +119,7 @@ import Skill from './Skill.vue'
 
         section {
             width: 100%;
+            
         }
 
         section h3{
