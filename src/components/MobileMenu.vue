@@ -5,7 +5,6 @@ const isMobileMenuOpen = ref(false)
 
 function toggleMobileMenu() {
   isMobileMenuOpen.value = !isMobileMenuOpen.value
-
 }
 </script>
 
@@ -25,8 +24,8 @@ function toggleMobileMenu() {
       <span class="hamburger-line"></span>
     </button>
 
-    <transition name="slide">
-      <div class="mobile-menu" v-show="isMobileMenuOpen">
+    <transition name="slide" >
+      <div class="mobile-menu" v-show="isMobileMenuOpen" @click="toggleMobileMenu">
         <a href="#Ben"><li>Ben Gregory</li></a>
         <a href="#Projets"><li>Projets</li></a>
         <a href="#Experiences"><li>Expériences</li></a>
@@ -38,6 +37,7 @@ function toggleMobileMenu() {
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 .menu {
   display: flex;
   flex-direction: row;
@@ -55,6 +55,8 @@ function toggleMobileMenu() {
 .menu a {
   text-decoration: none;
   margin: 0 10px;
+ 
+	
 }
 
 .menu li {
@@ -100,7 +102,9 @@ function toggleMobileMenu() {
   height: 100%;
   background-color: white;
   z-index: 100;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow-y: auto;
 }
 
@@ -110,6 +114,9 @@ function toggleMobileMenu() {
   text-align: center;
   list-style: none;
   border-bottom: 1px solid white;
+  font-size: 1.6rem;
+  font-weight: 300;
+  
 }
 
 .mobile-menu li:hover {
