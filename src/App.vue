@@ -38,7 +38,7 @@ if (window.innerWidth < 768) {
 <style scoped>
   .main {
     z-index: 100;
-    padding: 20;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

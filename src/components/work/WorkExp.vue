@@ -20,10 +20,12 @@ defineProps(
                 <img :src="image"/>
             </div>
             <div class="work-exp-text">
-                <h3>{{ name }}</h3>
-                <h4>{{ period }}</h4>
-                <h4>{{ company }}</h4>
-                <h4>{{ role }}</h4>
+                <h3>
+                    {{ name }}
+                
+                </h3>
+                <h4>{{ period }} • {{ company }}</h4>
+                
                 <p>{{ description }}</p>
             </div>
       
@@ -35,28 +37,36 @@ defineProps(
     .work-exp {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        padding: 1rem;
         justify-content: center;    
         align-items: center;
         height: fit-content;
-        min-height: 400px;
-        background-color: black;
+        background-color: white;
         margin: 20px;
-
+        max-height: 250px;
+        max-width: 77vw;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
   
 
     .work-exp-image {
+        position: relative;
+        top: 0;
+        left: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;    
         align-items: center;
-        height: 300px;
-        width: 40%;
+        height: 250px;
+        width: 20%;
+        max-width: 400px;
+        background-size: cover;
+       
         border-radius: 1px;
         transition: all 0.2s ease-in-out;
-        margin: 10px;
+        
+        background-color: white;
     }
 
     .work-exp-image img {
@@ -69,28 +79,27 @@ defineProps(
   
 
     .work-exp-text {
+  
         display: flex;
         flex-direction: column;
         justify-content: center;    
-        align-items: center;
-        height: 300px;
-        width: 300px;
+        align-items: flex-start;
+        width: 80%;
         border-radius: 1px;
         transition: all 0.2s ease-in-out;
-
+        padding: 1rem;
         margin: 10px;
-        color : white;
+        color : black;
     }
 
     .work-exp-text h3 {
-      
-        top:100%;
+       
         z-index: 1;
-        
-        background-color: white;
+     
         width: max-content;
         color: black;
-        padding: 10px;
+        margin-bottom: 0;
+      
     }
 
     
@@ -100,69 +109,55 @@ defineProps(
     }
 
     .work-exp-text p {
-        margin: 0;
-        padding: 0;
+      
+        margin-top: 1rem;
         font-weight: 300;
+        text-align: left;
     }
 
+
     @media (max-width: 768px) {
-        
         .work-exp {
             flex-direction: column;
-            justify-content: center;    
+            justify-content: center;
             align-items: center;
             height: fit-content;
-            min-height: 400px;
-            background-color: black;
-            margin: 20px;
+            max-height: max-content;
+            max-width: 85vw;
+            margin:1rem 0 ;
+            padding: 1rem;
         }
 
         .work-exp-image {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;    
-            align-items: center;
-            height: 250px;
-            background-size: cover;
-            width: 80%;
-            border-radius: 1px;
-            transition: all 0.2s ease-in-out;
-            margin: 10px;
+            height: 100px;
+            max-width: 40vw;
+            border-radius: 0;
+            margin: 0;
+            padding: 0;
         }
 
         .work-exp-image img {
             height: 100%;
             width: 100%;
             object-fit: cover;
-            border-radius: 1px;
+            border-radius: 0;
         }
 
         .work-exp-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;    
-            align-items: center;
-            height: 300px;
-            width: 80%;
-            border-radius: 1px;
-            transition: all 0.2s ease-in-out;
-
-            margin: 10px;
-            color : white;
+            height: fit-content;
+            width: 100%;
+            border-radius: 0;
+            margin: 0;
+           
         }
 
         .work-exp-text h3 {
-        
-            top:100%;
-            z-index: 1;
-            
-            background-color: white;
-            width: max-content;
+            margin: 0;
+            padding: 0;
+            width: 100%;
             color: black;
-            padding: 10px;
         }
 
-        
         .work-exp-text h4 {
             margin: 0;
             padding: 0;
@@ -172,6 +167,7 @@ defineProps(
             margin: 0;
             padding: 0;
             font-weight: 300;
+            text-align: left;
         }
     }
 

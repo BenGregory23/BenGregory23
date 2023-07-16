@@ -43,7 +43,7 @@ function toggleMobileMenu() {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -98,7 +98,7 @@ function toggleMobileMenu() {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: white;
   z-index: 100;

@@ -65,7 +65,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        width: 100%;
+        width: 100vw;
         padding-bottom: 3rem;
         border-top: 1px solid black;
         background-color: white;
