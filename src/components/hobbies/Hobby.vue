@@ -65,7 +65,7 @@ defineProps(
 
     h3{
         height: 20%;
-        padding-top: 20px;
+        padding-top: 25px;
         width: 100%;
         display: flex;
         font-size: 1.5rem;
@@ -75,7 +75,13 @@ defineProps(
     }
 
     p{
-        height: 80%;
+        height: 70%;
+        min-height: 70%;
+        
+        width: 100%;
+        display: flex;
+        flex-grow: 1;
+
         padding: 10px;
         color: black;
         width: fit-content;
