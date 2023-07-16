@@ -10,7 +10,7 @@
     <br/>
     <br/>
     <i>
-      Explorez mes compétences et découvrez mes projets ici. J'ai hâte de vous montrer mon travail et d'échanger avec vous. Merci de votre vie et n'hésitez pas à me contacter pour toute question ou opportunité de collaboration !
+      Explorez mes compétences et découvrez mes projets ici. Merci de votre visite et n'hésitez pas à me contacter pour toute question ou opportunité de collaboration !
     </i>
     </p>
 </div>
