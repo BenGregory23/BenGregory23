@@ -64,14 +64,16 @@ defineProps(
 
 
     h3{
-        height: 20%;
-        padding-top: 25px;
+        height: 30%;
+      
         width: 100%;
         display: flex;
         font-size: 1.5rem;
         margin: 0;
+        margin-top: 20px;
         color: black;
         width: fit-content;
+
     }
 
     p{
@@ -79,10 +81,8 @@ defineProps(
         min-height: 70%;
         
         width: 100%;
-        display: flex;
-        flex-grow: 1;
-
-        padding: 10px;
+        
+        padding: 5px 10px;
         color: black;
         width: fit-content;
     }
