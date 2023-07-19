@@ -1,5 +1,8 @@
 <script setup>
 
+function mail() {
+    window.open('mailto:bengregorygbr@gmail.com');
+}
 </script>
 
 
@@ -30,7 +33,7 @@
             </section>
 
             <section>
-                <button>
+                <button @click="mail">
                     Contact Me
                 </button>
 
