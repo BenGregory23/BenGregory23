@@ -22,9 +22,7 @@
                     Instagram
                 </a>
 
-                <a  class="strikethrough">
-                    Twitter
-                </a>
+             
 
                
 
