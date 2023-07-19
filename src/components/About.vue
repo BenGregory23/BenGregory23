@@ -20,6 +20,7 @@
 <style scoped>
   .about {
     width: 60vw;
+    height: 100vh;
     color : black;
   }
 

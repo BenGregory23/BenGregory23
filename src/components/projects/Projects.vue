@@ -56,68 +56,38 @@ import loleaf from '../../assets/loleaf.png'
     </div>
     
 </template>
-
 <style scoped>
-   
-    .projects {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;    
-        align-items: center;
-        height: 100%;
-        min-height: 100vh;
-        width: 100vw;
-       
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 20px; /* Add padding to the projects container */
+  box-sizing: border-box; /* Include padding in the total width */
+}
 
-    }
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Add gap between project components */
+  width: 100%;
+  max-width: 1200px; /* Set a max-width to limit the container size */
+  margin-top: 20px; /* Add some space above the projects */
+}
 
-    .project-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;    
-        align-items: center;
-        height: fit-content;
-        
-        width: 100vw;
-        background-color: transparent;
-    }
+h2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
-   
-
-    h2 {
-        background-color: black;
-        width: max-content;
-        color: white;
-        padding: 10px;
-    }
-
-    @media (max-width: 768px) {
-        .projects {
-            padding: 0;
-            height: max-content;
-            min-height: max-content;
-            max-width: 100vw;
-          
-            
-        }
-
-        .project-container {
-            flex-direction: column;
-            justify-content: center;    
-            align-items: center;
-            height: fit-content;
-            width: 95vw;
-            background-color: transparent;
-        }
-
-        h2 {
-            background-color: black;
-            width: max-content;
-            color: white;
-            padding: 10px;
-        }
-    }
-    
-   
+@media (max-width: 768px) {
+  .project-container {
+    align-items: flex-start; /* Align projects to the top on smaller screens */
+  }
+}
 </style>
+
+    
