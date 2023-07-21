@@ -17,11 +17,11 @@ function mail() {
                    GitHub
                 </a>
 
-                <a href="https://github.com/BenGregory23" target="_blank">
+                <a href="www.linkedin.com/in/ben-gregory-a04471169" target="_blank">
                     LinkedIn
                 </a>
 
-                <a>
+                <a href="https://www.instagram.com/bengrgory/" target="_blank">
                     Instagram
                 </a>
 
