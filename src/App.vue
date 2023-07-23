@@ -11,6 +11,7 @@ import Footer from './components/Footer.vue'
 import Skills from './components/skills/Skills.vue'
 import Morphing from './components/Morphing.vue'
 import Hobbies from './components/hobbies/Hobbies.vue'
+import WorkSearch from './components/WorkSearch.vue'
 
 const mobileMenu = ref(false)
 
@@ -33,6 +34,8 @@ if (window.innerWidth < 768) {
   </div>
   <MobileMenu />
 
+  <WorkSearch/>
+
 </template>
 
 <style scoped>
@@ -47,9 +50,10 @@ if (window.innerWidth < 768) {
     left: 0;
     top: 0;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
-
+    box-sizing: border-box;
+    max-width: 100vw;
   }
 
   @media (max-width: 768px) {
