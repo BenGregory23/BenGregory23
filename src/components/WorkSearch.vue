@@ -115,6 +115,7 @@ function closeWorkSearch() {
         background-color: #000;
         color: #fff;
         cursor: pointer;
+        margin: 5px;
     }
 
     .work-search-icon{
