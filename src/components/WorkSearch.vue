@@ -41,11 +41,7 @@ function closeWorkSearch() {
         </p>
 
         <p>
-            Je suis ouvert à toutes les propositions, n'hésitez pas à me contacter.
-            <br/>
-            mail : bengregorygbr@gmail.com
-            <br/>
-            tel : 06 71 86 33 44 
+            Je suis ouvert à toutes les propositions, n'hésitez pas à me contacter par mail <span>bengregorygbr@gmail.com</span> ou par téléphone au <span>06 71 86 33 44</span> !
         </p>
 
         <button @click="closeWorkSearch">Fermer</button>
@@ -102,9 +98,12 @@ function closeWorkSearch() {
     .work-search p {
         font-size: 0.8rem;
         font-weight: 400;
-     
         margin: 5px;
-       
+        text-align: center;
+    }
+
+    .work-search p span {
+        font-weight: 700;
     }
 
     .work-search button {
@@ -141,7 +140,6 @@ function closeWorkSearch() {
         border: 3px solid #000;
         font-family: 'Roboto', sans-serif;
         font-size: 1rem;
-        font-weight: 400;
         line-height: 1.5;
         text-align: center;
         cursor: pointer;
