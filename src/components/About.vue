@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="about">
+  <div class="about" id="About">
     <p>
       Bienvenue sur mon portfolio ! Je suis un développeur junior passionné par le développement. Récemment diplômé d'une licence professionnelle en développement web, j'ai acquis une solide expérience grâce à mes études, mes stages et mes expériences en alternance. Je suis constamment motivé à apprendre de nouvelles technologies et à relever de nouveaux défis. Actuellement, je me concentre sur le perfectionnement de mes compétences en Vue.js et en Go. Je suis également bilingue en anglais et en français.
     <br/>
@@ -22,6 +22,9 @@
     width: 60vw;
     height: 100vh;
     color : black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .about p {
