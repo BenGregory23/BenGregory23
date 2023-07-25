@@ -9,28 +9,36 @@ import Skill from './Skill.vue'
 
 
             <section>
-                <h3> Langage maîtrisés </h3>
+                <h3> Stack Actuelle </h3>
+                <p>
+                    Voici les technologies que j'utilise actuellement dans mes projets et que j'ai utilisé dans mes précédentes expériences.
+
+                </p>
                 <div class="container">
                     
-                    <Skill skill="HTML/CSS" skillLevel="90" tag="Avancé" />
+                  
                     <Skill skill="Javascript" skillLevel="80" tag="Avancé" />
+                    <Skill skill="React" skillLevel="40" tag="Avancé" />
+                    <Skill skill="NodeJS" skillLevel="55" tag="Avancé" />
+                    <Skill skill="MongoDB" skillLevel="50" tag="Avancé" />
+                    <Skill skill="React-Native" skillLevel="50" tag="Avancé" />
                     <Skill skill="Java" skillLevel="70" tag="Avancé" />
-                    <Skill skill="C#" skillLevel="60" tag="Avancé" />
-                    <Skill skill="Python" skillLevel="40" tag="Avancé" />
-                    <Skill skill="SQL" skillLevel="55" tag="Avancé" />
 
                 </div>
             </section>
 
             <section>
-                <h3> Web </h3>
+                <h3> Autres </h3>
+                <p>
+                    J'ai également des connaissances dans d'autres langages et frameworks. 
+                </p>
                 <div class="container">
-                    
-                    <Skill skill="React.js" skillLevel="80" tag="Utilisé sur de multiple projets" />
-                    <Skill skill="Vue.js" skillLevel="40" tag="En cours d'apprentissage" />
-                    <Skill skill="Node.js" skillLevel="40" tag="Bonne maîtrise" />
-                    <Skill skill="Express.js" skillLevel="40" tag="Bonne maîtrise" />
-                    <Skill skill="Spring Boot" skillLevel="60" tag="Bonne connaissance" />
+                    <Skill skill="MySQL" />
+                    <Skill skill="Spring Boot" />
+                    <Skill skill="Vue.js" />
+                    <Skill skill="Express.js"  />
+                    <Skill skill="Spring Boot"  />
+                    <Skill skill="C#" />
                 </div>
             </section>
 
@@ -56,77 +64,61 @@ import Skill from './Skill.vue'
         width: 100vw;
     }
 
-    .skills h2{
-        background-color: black;
-        font-size: 1.5rem;
-        margin: 0;
-        padding: 10px;
-        color: white;
-    }
-
     section {
+      
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        width: 80%;
- 
+        align-items: flex-start;
+        margin: 20px;
+        padding: 0 1rem;
+        max-width: 100vw;
+        width: fit-content;
+        height: 300px;
+        z-index: 100;
+        box-sizing: border-box;
+        background-color: #fff;
+        color: #000;
+        -webkit-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        border: 5px solid #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+      
     }
 
-    section h3{
-        margin : 1rem;
-        padding: 10px;
-        text-decoration: underline;
-        font-size: 1.5rem;
-        text-align: left;
-        align-self: flex-start;
- 
-        font-weight: 300;
-        color: black;
-        
-    }
-
-
-
-    .container{
+    .container {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 100%;
-   
-        
+        flex-wrap: wrap;
+        width: 70vw;
+        max-width: 80vw;
+        height: 100%;
     }
 
-    @media screen and (max-width: 768px) {
-
-        .skills{
-            padding: 0;
-            height: max-content;
-            min-height: max-content;
-            
-        }
-
-        .container{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100vw;
-            max-width: 100vw;
-            padding: 0;
-        }
-
-        section {
-            width: 100%;
-            
-        }
-
-        section h3{
-            text-align: center;
-            align-self: center;
-        }
+    h2{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
     }
+
+    h3{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    
+
+    
 
    
     

@@ -2,8 +2,6 @@
 
 defineProps({
     skill: String,
-    skillLevel: Number,
-    tag: String,
 })
 
 </script>
@@ -14,14 +12,9 @@ defineProps({
         
         <h3>
             {{ skill }}
-            <div class="skill-tag">
-                {{ tag }}
-            </div>
         </h3>
         
-        <div class="skill-level">
-            <div class="skill-level-bar" :style="{width: skillLevel + '%', backgroundColor: 'black' }"></div>
-        </div>
+      
 
 
     </div>
@@ -62,18 +55,7 @@ defineProps({
         align-items: center;
     }
 
-    .skill-level{
-        width: 100%;
-        height: 10px;
-        background-color: #E0E0E0;
-        
-        margin-top: 10px;
-    }
-
-    .skill-level-bar{
-        height: 100%;
-        
-    }
+  
 
     @media (max-width: 768px){
 
