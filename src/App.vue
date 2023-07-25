@@ -54,6 +54,7 @@ if (window.innerWidth < 768) {
     min-height: 100vh;
     box-sizing: border-box;
     max-width: 100vw;
+    overflow-x: hidden;
   }
 
   @media (max-width: 768px) {
