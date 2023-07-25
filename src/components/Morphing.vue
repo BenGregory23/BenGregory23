@@ -106,10 +106,8 @@ animate();
 })
 
 function scrollDown() {
-    window.scrollTo({
-        top: window.innerHeight,
-        behavior: 'smooth'
-    })
+   
+	
 }
 
 </script>
@@ -142,9 +140,12 @@ function scrollDown() {
 	</defs>
 </svg>
 
-<button id="down" @click="scrollDown">
-    <ChevronDown Color="black"   />
-</button>
+
+	<a id="down"  href="#About">
+    	<ChevronDown Color="black"   />
+	</a>
+
+
 
 </div>
 </template>
@@ -172,6 +173,25 @@ function scrollDown() {
     bottom: 5rem;
     background-color: transparent;
     border: none;
+	transition: 0.2s;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#down:hover{
+	color: #fffefe;
+	transform: scale(1.2);
+	background-color: black;
+	border-radius: 50%;
+
+}
+
+#down:focus{
+	outline: none;
 }
 
 
@@ -212,6 +232,8 @@ function scrollDown() {
     color: black;
 	user-select: none;
 }
+
+
 
 
 @media screen and (max-width: 600px) {
