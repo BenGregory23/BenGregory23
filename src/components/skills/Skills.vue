@@ -113,7 +113,7 @@ import Skill from './Skill.vue'
         background-color: black;
         color: white;
         padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     
