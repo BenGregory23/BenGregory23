@@ -55,6 +55,7 @@ if (window.innerWidth < 768) {
     box-sizing: border-box;
     max-width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   @media (max-width: 768px) {
