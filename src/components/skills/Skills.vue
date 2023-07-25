@@ -1,5 +1,6 @@
 <script setup>
 import Skill from './Skill.vue'
+
 </script>
 
 <template>
@@ -17,12 +18,12 @@ import Skill from './Skill.vue'
                 <div class="container">
                     
                   
-                    <Skill skill="Javascript" skillLevel="80" tag="Avancé" />
-                    <Skill skill="React" skillLevel="40" tag="Avancé" />
-                    <Skill skill="NodeJS" skillLevel="55" tag="Avancé" />
-                    <Skill skill="MongoDB" skillLevel="50" tag="Avancé" />
+                    <Skill skill="Javascript" link="https://img.icons8.com/color/96/javascript--v1.png" />
+                    <Skill skill="React" skillLevel="40" tag="Avancé" link="https://img.icons8.com/color/96/react-native.png"/>
+                    <Skill skill="NodeJS" link="https://img.icons8.com/color/96/nodejs.png" />
+                    <Skill skill="MongoDB" link="https://img.icons8.com/color/96/mongodb.png" />
                     <Skill skill="React-Native" skillLevel="50" tag="Avancé" />
-                    <Skill skill="Java" skillLevel="70" tag="Avancé" />
+                    <Skill skill="Java" link="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" alt="Java" />
 
                 </div>
             </section>
@@ -33,21 +34,16 @@ import Skill from './Skill.vue'
                     J'ai également des connaissances dans d'autres langages et frameworks. 
                 </p>
                 <div class="container">
-                    <Skill skill="MySQL" />
-                    <Skill skill="Spring Boot" />
-                    <Skill skill="Vue.js" />
-                    <Skill skill="Express.js"  />
-                    <Skill skill="Spring Boot"  />
-                    <Skill skill="C#" />
+                    <Skill skill="TypeScript" link="https://img.icons8.com/color/96/typescript.png" />
+                    <Skill skill="NextJs" link="https://img.icons8.com/color/96/nextjs.png"/>
+                    <Skill skill="MySQL" link="https://img.icons8.com/color/96/mysql-logo.png" />
+                    <Skill skill="Spring Boot" link="https://img.icons8.com/color/96/spring-logo.png" />
+                    <Skill skill="Vue.js" link="https://img.icons8.com/color/96/vue-js.png" />
+                    <Skill skill="Express.js"  link="https://img.icons8.com/color/96/express-js.png" />
+                    <Skill skill="C#" link="https://img.icons8.com/color/96/c-sharp-logo-2.png" />
+                    <Skill skill="Docker" link="https://img.icons8.com/color/96/docker.png" />
                 </div>
             </section>
-
-
-            
-        
-       
-
-      
   
     </div>
 </template>
@@ -74,7 +70,7 @@ import Skill from './Skill.vue'
         padding: 0 1rem;
         max-width: 100vw;
         width: fit-content;
-        height: 300px;
+        height: fit-content;
         z-index: 100;
         box-sizing: border-box;
         background-color: #fff;

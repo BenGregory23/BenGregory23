@@ -1,7 +1,14 @@
 <script setup>
 
+import { ref } from 'vue'; 
+const iconSize = ref(70)
+
+
+
 defineProps({
     skill: String,
+    link: String,
+    alt: String
 })
 
 </script>
@@ -9,13 +16,7 @@ defineProps({
 
 <template>
     <div class="skill">
-        
-        <h3>
-            {{ skill }}
-        </h3>
-        
-      
-
+        <img :width="iconSize" :height="iconSize" :src="link" :alt="alt" />
 
     </div>
 
@@ -29,7 +30,7 @@ defineProps({
         align-items: flex-start;
         height: fit-content;
         
-        width:30%;
+        width:fit-content;
         margin:  10px;
         
     }
