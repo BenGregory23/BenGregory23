@@ -10,37 +10,47 @@ import Skill from './Skill.vue'
 
 
             <section>
-                <h3> Stack Actuelle </h3>
+                <h3> Langage </h3>
                 <p>
-                    Voici les technologies que j'utilise actuellement dans mes projets et que j'ai utilisé dans mes précédentes expériences.
-
+                    J'ai une bonne connaissance des langages de programmation suivants.
                 </p>
                 <div class="container">
                     
                   
                     <Skill skill="Javascript" link="https://img.icons8.com/color/96/javascript--v1.png" />
-                    <Skill skill="React" skillLevel="40" tag="Avancé" link="https://img.icons8.com/color/96/react-native.png"/>
-                    <Skill skill="NodeJS" link="https://img.icons8.com/color/96/nodejs.png" />
-                    <Skill skill="MongoDB" link="https://img.icons8.com/color/96/mongodb.png" />
-                    <Skill skill="React-Native" skillLevel="50" tag="Avancé" />
-                    <Skill skill="Java" link="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" alt="Java" />
+                    <Skill skill="TypeScript" link="https://img.icons8.com/color/96/typescript.png" />
+                    <Skill skill="Java" link="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" />
+                    <Skill skill="C#" link="https://img.icons8.com/color/96/c-sharp-logo-2.png" />
+              
+              
 
                 </div>
             </section>
 
             <section>
-                <h3> Autres </h3>
+                <h3> Frameworks </h3>
                 <p>
-                    J'ai également des connaissances dans d'autres langages et frameworks. 
+                    J'ai une bonne connaissance des frameworks suivants.
                 </p>
                 <div class="container">
-                    <Skill skill="TypeScript" link="https://img.icons8.com/color/96/typescript.png" />
+                    <Skill skill="React" link="https://img.icons8.com/color/96/react-native.png" />
                     <Skill skill="NextJs" link="https://img.icons8.com/color/96/nextjs.png"/>
-                    <Skill skill="MySQL" link="https://img.icons8.com/color/96/mysql-logo.png" />
-                    <Skill skill="Spring Boot" link="https://img.icons8.com/color/96/spring-logo.png" />
                     <Skill skill="Vue.js" link="https://img.icons8.com/color/96/vue-js.png" />
+                    <Skill skill="Node.js" link="https://img.icons8.com/color/96/nodejs.png" />
                     <Skill skill="Express.js"  link="https://img.icons8.com/color/96/express-js.png" />
-                    <Skill skill="C#" link="https://img.icons8.com/color/96/c-sharp-logo-2.png" />
+                    <Skill skill="Spring Boot" link="https://img.icons8.com/color/96/spring-logo.png" />
+                </div>
+            </section>
+
+            <section>
+                <h3> Outils </h3>
+                <p>
+                    J'utilise également des outils pour faciliter le développement et le déploiement de mes projets.
+                </p>
+                <div class="container">
+                    <Skill skill="WebPack" link="https://img.icons8.com/color/96/webpack.png" />
+                    
+                    <Skill skill="Git" link="https://img.icons8.com/color/96/git.png" />
                     <Skill skill="Docker" link="https://img.icons8.com/color/96/docker.png" />
                 </div>
             </section>
@@ -55,8 +65,8 @@ import Skill from './Skill.vue'
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
-        min-height: 100vh;
+       
+        margin: 2rem 0;
         width: 100vw;
     }
 
@@ -96,6 +106,7 @@ import Skill from './Skill.vue'
         width: 70vw;
         max-width: 80vw;
         height: 100%;
+        padding: 20px;
     }
 
     h2{
@@ -112,6 +123,26 @@ import Skill from './Skill.vue'
         margin-bottom: 0px;
     }
 
+    @media (max-width: 768px){
+        .skills{
+            height: fit-content;
+        }
+
+        section{
+            width: 85vw;
+            margin: 15px;
+            padding: 0 1rem;
+            height: fit-content;
+        }
+
+        .container{
+            width: 95vw;
+            padding: 0 1rem;
+            height: fit-content;
+        }
+
+        
+    }
     
 
     
