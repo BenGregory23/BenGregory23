@@ -17,7 +17,7 @@ function mail() {
                    GitHub
                 </a>
 
-                <a href="www.linkedin.com/in/ben-gregory-a04471169" target="_blank">
+                <a href="https://www.linkedin.com/in/ben-gregory-a04471169" target="_blank">
                     LinkedIn
                 </a>
 
