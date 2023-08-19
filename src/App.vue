@@ -19,6 +19,11 @@ if (window.innerWidth < 768) {
   mobileMenu.value = true
 }
 
+
+fetch("https://radar-my-apps-336125652a2e.herokuapp.com/?source=Portfolio", {
+  method: "POST",
+}).then(res => console.log(res))
+
 </script>
 
 <template>
