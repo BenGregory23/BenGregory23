@@ -20,9 +20,12 @@ if (window.innerWidth < 768) {
 }
 
 
-fetch("https://radar-my-apps-336125652a2e.herokuapp.com/?source=Portfolio", {
-  method: "POST",
-}).then(res => console.log(res))
+fetch("https://api.ipify.org/")
+.then(res => {
+  fetch("https://radar-my-apps-336125652a2e.herokuapp.com/?source=Portfolio&ip=" + res, {
+          method: "POST",
+  }).then(res => console.log(res))
+})
 
 </script>
 
