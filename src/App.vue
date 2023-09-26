@@ -21,11 +21,15 @@ if (window.innerWidth < 768) {
 
 
 fetch("https://api.ipify.org/")
-.then(res => {
-  fetch("https://radar-my-apps-336125652a2e.herokuapp.com/?source=Portfolio&ip=" + res, {
-          method: "POST",
-  }).then(res => console.log(res))
-})
+      .then(res => {
+        return res.text()
+      }).then(res => {
+        
+        
+          fetch("https://radar-my-apps-336125652a2e.herokuapp.com/?source=Noice&ip=" + res,{method: 'POST'}).then(res => res.json())
+          .then(res => console.log(res))
+          .catch(err => console.log(err))
+      }).catch(err => console.log(err))
 
 </script>
 
