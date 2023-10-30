@@ -37,15 +37,25 @@ defineProps(
     .work-exp {
         display: flex;
         flex-direction: row;
-        padding: 1rem;
-        justify-content: center;    
-        align-items: center;
-        height: fit-content;
-        background-color: white;
+        justify-content: center;
+        align-items: flex-start;
         margin: 20px;
-        max-height: 250px;
-        max-width: 77vw;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        max-width: 70vw;
+        width: 70vw;
+        padding: 0 16px;
+        height: fit-content;
+        z-index: 100;
+        background-color: #fff;
+        color: #000;
+        -webkit-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        -moz-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
+        border: 5px solid #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
     }
 
   

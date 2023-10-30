@@ -20,6 +20,7 @@ import Skill from './Skill.vue'
                     <Skill skill="Javascript" link="https://img.icons8.com/color/96/javascript--v1.png" />
                     <Skill skill="TypeScript" link="https://img.icons8.com/color/96/typescript.png" />
                     <Skill skill="Java" link="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" />
+                    <Skill skill="Go" link="https://img.icons8.com/color/96/golang.png" />
                     <Skill skill="C#" link="https://img.icons8.com/color/96/c-sharp-logo-2.png" />
               
               
@@ -49,7 +50,7 @@ import Skill from './Skill.vue'
                 </p>
                 <div class="container">
                     <Skill skill="WebPack" link="https://img.icons8.com/color/96/webpack.png" />
-                    
+                    <Skill skill="Vite" link="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbranditechture.agency%2Fbrand-logos%2Fwp-content%2Fuploads%2Fwpdm-cache%2FVitejs-900x0.png&f=1&nofb=1&ipt=9dbb0521341fb99d017febd379727369c3d1e522a35990048db1c5b5d5275cc9&ipo=images" />
                     <Skill skill="Git" link="https://img.icons8.com/color/96/git.png" />
                     <Skill skill="Docker" link="https://img.icons8.com/color/96/docker.png" />
                 </div>
@@ -77,12 +78,11 @@ import Skill from './Skill.vue'
         justify-content: center;
         align-items: flex-start;
         margin: 20px;
-        padding: 0 1rem;
-        max-width: 100vw;
-        width: fit-content;
+        max-width: 70vw;
+        width: 70vw;
+        padding: 0 16px;
         height: fit-content;
         z-index: 100;
-        box-sizing: border-box;
         background-color: #fff;
         color: #000;
         -webkit-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
@@ -104,7 +104,7 @@ import Skill from './Skill.vue'
         align-items: center;
         flex-wrap: wrap;
         width: 70vw;
-        max-width: 80vw;
+        max-width: 70vw;
         height: 100%;
         padding: 20px;
     }

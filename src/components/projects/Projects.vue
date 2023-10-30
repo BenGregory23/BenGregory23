@@ -7,6 +7,7 @@ import noice from '../../assets/noice.png'
 import instind from '../../assets/instind.png'
 import skop_API from '../../assets/SKOP_API.png'
 import loleaf from '../../assets/loleaf.png'
+import map_generator from '../../assets/wave.png'
 
 
 
@@ -42,7 +43,7 @@ import loleaf from '../../assets/loleaf.png'
             :image="noice" 
             link="https://rad-klepon-9a5a05.netlify.app/" 
             source-code="https://github.com/BenGregory23/noice"
-            description="Noice une application web qui permet de lister les films que je souhaites voir. Mais aussi les restaurants ou bar que je veux essayer. Vous pouvez rajouter un film ou un endroit, je le regarderais ou j'irais peut-être !"
+            description="Noice une application web qui permet de lister les films que je souhaites voir. Mais aussi les restaurants ou bar que je veux essayer."
             />
             <Project 
             name="LoLeaf" 
@@ -51,7 +52,16 @@ import loleaf from '../../assets/loleaf.png'
             source-code="https://github.com/BenGregory23/LoLeaf" 
             description="LoLeaf est une application web permettant d'écouter de la musique lofi/Jazz/Synthwave lorsque l'on code ou travaille. L'application est développée en React et utilise l'API de Youtube pour récupérer les musiques. Cela permet d'éviter les pubs et l'interface parfois trop chargée de Youtube."
             />
-        </div>
+
+            <Project
+            name="Map Generator"
+            :image="map_generator"
+            link="https://wave.bengregory.live"
+            source-code="htts://github.com/BenGregory23/Wave"
+            description="Map Generator est une application web permettant de générer des cartes 2D aléatoire en utilisant l'algoritme 'Wave Function Collapse'."
+            />
+          
+          </div>
       
     </div>
     

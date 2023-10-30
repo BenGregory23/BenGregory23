@@ -54,7 +54,7 @@ import wemed from '../../assets/wemed.png'
         flex-direction: column;
         flex-wrap: wrap;
         height: fit-content;
-        max-width: 100vw;
+        max-width: 90vw;
     }
 
     .work h2 {
