@@ -66,7 +66,7 @@ import wemed from '../../assets/wemed.png'
         flex-wrap: wrap;
         height: fit-content;
         max-width: 100vw;
-        background-color: red;
+        
     }
 
     .work h2 {
