@@ -42,9 +42,10 @@ defineProps(
         max-height: 400px;
    
         aspect-ratio: 1;
-        margin: 1rem;
+        margin: 0.5rem;
         border: 1px solid rgb(172, 172, 172);
         border-radius: 1rem;
+        ;
     
     }
 
@@ -120,6 +121,70 @@ defineProps(
         padding: 0rem 1rem;
         margin: 0.5rem;
         height: 30px;
+    }
+
+    @media screen and (max-width: 768px) {
+        
+        .work-exp {
+            
+            height: 100%;
+            aspect-ratio: 1;
+            margin: 1rem;
+            
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            border-radius: 0;
+            background-color: white;
+            border-radius: 1rem;
+            filter: sepia(0.1);
+        }
+
+        .work-exp-text {
+            display: flex;
+            padding: 0rem 1rem;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            position: absolute;
+            top: 0;
+            left: 0;
+            
+            border-radius: 1rem;
+            color: white;
+            
+        }
+
+        .work-exp-text h3 {
+            z-index: 1;
+            width: max-content;
+            color: white;
+            margin-bottom: 0;
+            font-family: "Satoshi";
+            font-size: 1.5rem;
+        }
+
+        .work-exp-text h4 {
+            margin: 0;
+            padding: 0;
+            font-family: "Satoshi";
+            font-size: 1.1rem;
+        }
+
+        .work-exp-text p {
+            margin-top: 1rem;
+            font-weight: 300;
+            text-align: left;
+        }
+
+       
+
     }
 
 

@@ -57,6 +57,7 @@ import wemed from '../../assets/wemed.png'
         height: 100%;
         min-height: 100vh;
         width: 100vw;
+       
     }
 
     .work-container{
@@ -64,7 +65,8 @@ import wemed from '../../assets/wemed.png'
         flex-direction: row;
         flex-wrap: wrap;
         height: fit-content;
-        max-width: 90vw;
+        max-width: 100vw;
+        background-color: red;
     }
 
     .work h2 {
