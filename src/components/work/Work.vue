@@ -61,6 +61,7 @@ import wemed from '../../assets/wemed.png'
         color: white;
         background-color: black;
         padding: 10px;
+        font-family: "Satoshi";
     }
 
     @media (max-width: 768px) {

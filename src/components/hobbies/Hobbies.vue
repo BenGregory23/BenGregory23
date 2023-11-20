@@ -54,6 +54,7 @@ import Hobby from './Hobby.vue'
         padding: 10px;
         color: white;
         width: fit-content;
+        font-family: "Satoshi";
     }
 
     @media screen and (max-width: 600px) {

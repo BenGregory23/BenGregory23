@@ -91,6 +91,8 @@ h2 {
   color: white;
   padding: 10px;
   margin-bottom: 20px;
+  font-family: "Satoshi";
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {

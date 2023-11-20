@@ -44,8 +44,9 @@ function mail() {
 
         <div class="right">
             <p>
-                Ce site a été développé avec Vue.js.
+                Made with <span class="strikethrough">love</span> code.
             </p>
+
         </div>
         
        
@@ -70,7 +71,7 @@ function mail() {
         padding-bottom: 3rem;
         border-top: 1px solid black;
         background-color: white;
-        height: 400px;
+        height: 300px;
      
     }
 
@@ -139,19 +140,19 @@ function mail() {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 300px;
+        height: 250px;
         width: 30%;
         background-color: white;
-        
         border-left: 1px solid black;
-        min-height: 5rem;
+        
     }
 
     
 
     .right p {
-        font-size: 1rem;
+        font-size: 1.3rem;
         color : rgb(0, 0, 0);
+        font-family: "Satoshi";
     }
 
 
@@ -224,12 +225,12 @@ function mail() {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 300px;
+            height: fit-content;
             width: 100%;
-            background-color: white;
             
-            border-left: 1px solid black;
-            min-height: 5rem;
+            
+           
+            
         }
 
         

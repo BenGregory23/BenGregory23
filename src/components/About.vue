@@ -19,12 +19,13 @@
 
 <style scoped>
   .about {
-    width: 60vw;
+    width: 50vw;
     height: 100vh;
     color : black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
   }
 
   .about p {

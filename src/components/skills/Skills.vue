@@ -114,6 +114,7 @@ import Skill from './Skill.vue'
         color: white;
         padding: 10px;
         margin-bottom: 20px;
+        font-family: "Satoshi";
     }
 
     h3{
@@ -121,6 +122,7 @@ import Skill from './Skill.vue'
         color: white;
         padding: 10px;
         margin-bottom: 0px;
+        font-family: "Satoshi";
     }
 
     @media (max-width: 768px){

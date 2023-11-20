@@ -41,7 +41,7 @@ defineProps(
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 300px;
+        width: 320px;
         border-radius: 5px;
         user-select: none;
         background-color: white;
@@ -53,19 +53,20 @@ defineProps(
     .hobby-info{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 100%;
         border-radius: 5px;
         user-select: none;
         background-color: white;
         height: 50%;
+       
     }
 
 
     h3{
-        height: 30%;
-      
+       
+        
         width: 100%;
         display: flex;
         font-size: 1.5rem;
@@ -73,18 +74,16 @@ defineProps(
         margin-top: 20px;
         color: black;
         width: fit-content;
-
+        font-family: "Satoshi";
     }
 
     p{
-        height: 70%;
-        min-height: 70%;
-        
+        text-align: justify;
         width: 100%;
-        
-        padding: 5px 10px;
+        padding: 0px 1rem;
         color: black;
         width: fit-content;
+        margin: 0.3rem 0;
     }
 
     .img-container{
@@ -99,12 +98,9 @@ defineProps(
         background-position: center;
         background-size: cover;
         border-radius: 5px 5px 0 0 ;
-        width: 300px;
+        width: 100%;
         height: 100%;
-
         object-fit: cover;
-      
-        
     }
 
 
