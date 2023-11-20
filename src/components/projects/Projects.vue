@@ -7,7 +7,7 @@ import noice from '../../assets/noice.png'
 import instind from '../../assets/instind.png'
 import skop_API from '../../assets/SKOP_API.png'
 import loleaf from '../../assets/loleaf.png'
-import map_generator from '../../assets/wave.png'
+import map_generator from '../../assets/Wave.png'
 
 
 
