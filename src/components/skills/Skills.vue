@@ -62,6 +62,7 @@ import Skill from './Skill.vue'
 <style scoped>
 
     .skills{
+        scroll-snap-align: start;
         display: flex;
         flex-direction: column;
         justify-content: center;

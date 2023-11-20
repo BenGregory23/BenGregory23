@@ -68,6 +68,7 @@ import map_generator from '../../assets/Wave.png'
 </template>
 <style scoped>
 .projects {
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,7 +83,7 @@ import map_generator from '../../assets/Wave.png'
   justify-content: center;
   gap: 20px; /* Add gap between project components */
   width: 100%;
-  max-width: 1200px; /* Set a max-width to limit the container size */
+  max-width: 80vmax; /* Set a max-width to limit the container size */
   margin-top: 20px; /* Add some space above the projects */
 }
 

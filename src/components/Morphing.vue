@@ -159,7 +159,7 @@ function scrollDown() {
 @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 .morph {
-
+	scroll-snap-align: start;
     width: 100vw;
     min-height: 100vh;
     display: flex;

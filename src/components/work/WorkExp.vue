@@ -15,19 +15,22 @@ defineProps(
 
 <template>
     <div class="work-exp">
-       
-            <div class="work-exp-image">
-                <img :src="image"/>
-            </div>
+  
+            <img :src="image"/>
+     
             <div class="work-exp-text">
+             
                 <h3>
                     {{ name }}
-                
                 </h3>
-                <h4>{{ period }} • {{ company }}</h4>
+                <h4>{{ company }}</h4>
                 
                 <p>{{ description }}</p>
             </div>
+
+            <div class="period">
+                {{ period }}
+            </div> 
       
     </div>
 </template>
@@ -35,87 +38,62 @@ defineProps(
 
 <style scoped>
     .work-exp {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        margin: 20px;
-        max-width: 70vw;
-        width: 70vw;
-        padding: 0 16px;
-        height: fit-content;
-        z-index: 100;
-        background-color: #fff;
-        color: #000;
-        -webkit-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
-        -moz-box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
-        box-shadow: 18px 22px 0px 1px rgba(0,0,0,1);
-        border: 5px solid #000;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: center;
-    }
-
-  
-
-    .work-exp-image {
         position: relative;
-        top: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;    
-        align-items: center;
-        height: 250px;
-        width: 20%;
-        max-width: 400px;
-        background-size: cover;
-       
-        border-radius: 1px;
-        transition: all 0.2s ease-in-out;
-        
-        background-color: white;
+        max-height: 400px;
+   
+        aspect-ratio: 1;
+        margin: 1rem;
+        border: 1px solid rgb(172, 172, 172);
+        border-radius: 1rem;
+    
     }
 
-    .work-exp-image img {
+    img {
         height: 100%;
         width: 100%;
+        position: relative;
+        top: 100;
+        left: 0;
         object-fit: cover;
         border-radius: 1px;
+        background-color: white;
+        border-radius: 1rem;
+        filter: sepia(0.1);
     }
 
   
 
     .work-exp-text {
-  
+       
         display: flex;
+        padding:  0rem 1rem;
         flex-direction: column;
-        justify-content: center;    
+        justify-content: flex-end;
         align-items: flex-start;
-        width: 80%;
-        border-radius: 1px;
-        transition: all 0.2s ease-in-out;
-        padding: 1rem;
-        margin: 10px;
-        color : black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        border-radius: 1rem;
+        color : white;
+        background: linear-gradient(to top, rgba(44, 41, 41, 0.594) , rgba(0, 0, 0, 0.034)70%);
     }
 
     .work-exp-text h3 {
-       
         z-index: 1;
-     
         width: max-content;
-        color: black;
+        color: white;
         margin-bottom: 0;
-      
+        font-family: "Satoshi";
+        font-size: 1.5rem;
     }
 
     
     .work-exp-text h4 {
         margin: 0;
         padding: 0;
+        font-family: "Satoshi";
+        font-size: 1.1rem;
     }
 
     .work-exp-text p {
@@ -125,60 +103,24 @@ defineProps(
         text-align: left;
     }
 
-
-    @media (max-width: 768px) {
-        .work-exp {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: fit-content;
-            max-height: max-content;
-            max-width: 85vw;
-            margin:1rem 0 ;
-            padding: 1rem;
-        }
-
-        .work-exp-image {
-            height: 100px;
-            max-width: 40vw;
-            border-radius: 0;
-            margin: 0;
-            padding: 0;
-        }
-
-        .work-exp-image img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            border-radius: 0;
-        }
-
-        .work-exp-text {
-            height: fit-content;
-            width: 100%;
-            border-radius: 0;
-            margin: 0;
-           
-        }
-
-        .work-exp-text h3 {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            color: black;
-        }
-
-        .work-exp-text h4 {
-            margin: 0;
-            padding: 0;
-        }
-
-        .work-exp-text p {
-            margin: 0;
-            padding: 0;
-            font-weight: 300;
-            text-align: left;
-        }
+    .period{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Satoshi";
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 100px;
+        background-color: rgb(112, 187, 95);
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: fit-content;
+        padding: 0rem 1rem;
+        margin: 0.5rem;
+        height: 30px;
     }
+
 
 </style>

@@ -71,6 +71,7 @@ fetch("https://api.ipify.org/")
     max-width: 100vw;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
   }
 
   @media (max-width: 768px) {

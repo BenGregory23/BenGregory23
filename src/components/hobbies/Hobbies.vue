@@ -23,6 +23,7 @@ import Hobby from './Hobby.vue'
 <style scoped>
 
     .hobbies{
+        scroll-snap-align: start;
         display: flex;
         flex-direction: column;
         justify-content: center;    

@@ -27,6 +27,7 @@ function scrollDown() {
 
 <style scoped>
     .hero{
+        scroll-snap-align: start;
         display: flex;
         flex-direction: column;
         justify-content: center;    

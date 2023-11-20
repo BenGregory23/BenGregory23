@@ -62,6 +62,7 @@ function mail() {
     @import url('https://fonts.googleapis.com/css?family=Rakkas');
 
     .footer{
+        scroll-snap-align: start;
         display: flex;
         flex-direction: row;
         justify-content: center;
