@@ -17,7 +17,7 @@ import wemed from '../../assets/wemed.png'
         period="Poste actuel"
         company="Groupe SII"
         role="Software Engineer"
-        description="...TODO..." 
+        description="Développeur Fullstack chez SII à Niort. Développement React & Java Spring Boot."
         image="https://images.unsplash.com/photo-1510074377623-8cf13fb86c08?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         />
 
@@ -26,7 +26,7 @@ import wemed from '../../assets/wemed.png'
         period="2022 - 2023"
         company="WeMed"
         role="Software Engineer"
-        description="Année d'alternance chez WeMed en tant que développeur fullstack. Je travaille sur le développement d'une application web de téléconsultation en Next JS." 
+        description="Année d'alternance chez WeMed en tant que développeur fullstack. Participation au développement d'une plateforme de téléconsultation en ligne. Utilisation de React/NextJS, NodeJS et communication avec une API Rest et SOAP."
         image="https://cdn.pixabay.com/photo/2017/08/10/03/30/stethoscope-2617701_960_720.jpg"
         />
 
