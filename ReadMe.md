@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">I'm Ben Gregory, here's some stuff about me : <br><br>- 🔭 I work a as as fullstack developer at SII Group<br>- 📚 I'm currently learning Go and React Native<br>- ⚡ In my free time I like to solve stuff on LeetCode and create countless sideprojects.</p>
+<p align="left">I'm Ben Gregory, here's some stuff about me : <br><br>- 🔭 I work a as as fullstack developer at Abrege<br>- 📚 I'm currently learning Go and Vue<br>- ⚡ In my free time I like to solve stuff on LeetCode and create countless sideprojects.</p>
 
 ###
 
