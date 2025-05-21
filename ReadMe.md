@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ben</h1>
 <h3 align="center">A passionate frontend developer from France</h3>
 
-
-<p align="center"> I am currently working as a fullstack developer at ACENSI doing some Java/Angular. Check my repos or hit me up if you wanna collaborate! </p>
+<p align="center"> I’m currently a fullstack developer at ACENSI working with Java and Angular. I love building things with the tools available, but my goal is to eventually create the tools that others use. Check out my repositories or reach out if you’d like to collaborate! </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bengregory23&label=Profile%20views&color=0e75b6&style=flat" alt="bengregory23" /> </p>
 
