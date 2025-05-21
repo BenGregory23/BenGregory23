@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Go**
 
-- 👨‍💻 All of my projects are available at [https://bengregory.live](https://bengregory.live)
+- 👨‍💻 All of my projects are available at [https://bengregory.live](https://bengregory.live) (Well I need to update it, it's been a while since I worked on it)
 
 - 💬 Ask me about **Vue/Nuxt, Javascript and Java**
 
