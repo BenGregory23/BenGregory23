@@ -11,5 +11,5 @@
 
 - 📫 How to reach me **bengregorygbr@gmail.com**
 
-- 💾 What is my stack : I am mainly doing Typescript and Java but I also use some Go. 
+- 💾 My stack is mainly Typescript and Java but I also use some Go. 
 
